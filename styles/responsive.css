@@ -1,0 +1,70 @@
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav, .nav-contact{
+        flex-direction: column;
+    }
+    .featured-section{
+        flex-direction: column-reverse;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+    nav{
+        text-align: center;
+    }
+    .banner-section{
+        text-align: center;
+    }
+    .btn-now{
+        margin-bottom: 20px;
+    }
+    .banner-image-container{
+        padding: 20px 0px 20px 20px;
+        background-size: cover;
+    }
+    .banner-image-container img{
+        width: 100%;
+    }
+    .sponsors-section{
+         flex-wrap: wrap;
+    }
+   .sponsors-section img{
+    width: 50px;
+     height: 40px;
+     margin-right: 30px;
+     padding: 10px 0;
+   }
+
+    .accessories-image-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        
+    }
+    .box{
+        width: 350px;
+        height: 480px;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .see-more{
+        margin-top: 20px;
+        margin-right:0px;
+        text-align:center;
+      }
+      .featured-section{
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .featured-image img{
+        width: 100%;
+    }
+    footer{
+        margin-top: 50px;
+    }
+  
+ 
+}  
